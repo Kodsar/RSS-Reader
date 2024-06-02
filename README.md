@@ -31,7 +31,7 @@ A simple RSS Reader application that allows you to add, remove, and display rece
    - **fetchPageSource(String urlString):** Fetches the HTML content of the given URL.
    - **extractRssUrl(String url):** Extracts the RSS URL from the provided website URL.
    - **retrieveRssContent(String rssUrl):** Retrieves and displays the content of the RSS feed.
-### 2. RssFeed.java
+#### 2. RssFeed.java
    - **RssFeed(String name, String websiteUrl, String rssUrl):** Constructor to initialize an RSS feed.
    - **getCounter():** Returns the counter value.
    - **getName():** Returns the name of the feed.
