@@ -14,6 +14,14 @@ A simple RSS Reader application that allows you to add, remove, and display rece
 - Java Development Kit (JDK) 8 or higher
 - JSoup library (for HTML parsing)
 
+## Usage
+This RSS Reader application can be used to keep track of updates from your favorite websites and blogs. By simply providing the URL of a website, the application will automatically extract the RSS feed and keep you updated with the latest posts. This can be particularly useful for:
+
+- **News Aggregation:** Collect and read news from multiple sources in one place.
+- **Content Monitoring:** Stay updated with the latest posts from your favorite blogs and websites.
+- **Research:** Gather information from various sources efficiently.
+
+
 
 ## Code Structure
 - **RSS.java:** The main class containing the logic for adding, removing, displaying feeds, and menu interaction.
