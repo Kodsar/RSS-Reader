@@ -20,7 +20,7 @@ A simple RSS Reader application that allows you to add, remove, and display rece
 - **RssFeed.java:** A class representing an RSS feed with properties like name, website URL, and RSS URL.
 - **data.txt:** A file to store the list of RSS feeds. Each feed is stored in a new line in the format name;websiteUrl;rssUrl.
 ### Methods
-#### 1. RSS.java
+#### 1. RSS Class
    - **main(String[] args):** Main method to start the application and display menu options.
    - **loadFeeds():** Loads feeds from data.txt.
    - **saveFeeds():** Saves feeds to data.txt.
@@ -31,7 +31,7 @@ A simple RSS Reader application that allows you to add, remove, and display rece
    - **fetchPageSource(String urlString):** Fetches the HTML content of the given URL.
    - **extractRssUrl(String url):** Extracts the RSS URL from the provided website URL.
    - **retrieveRssContent(String rssUrl):** Retrieves and displays the content of the RSS feed.
-#### 2. RssFeed.java
+#### 2. RssFeed Class
    - **RssFeed(String name, String websiteUrl, String rssUrl):** Constructor to initialize an RSS feed.
    - **getCounter():** Returns the counter value.
    - **getName():** Returns the name of the feed.
